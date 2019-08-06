@@ -1,0 +1,25 @@
+{
+  "name": "imperial-webservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulImperial/imperial-webservices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulImperial/imperial-webservices/issues"
+  },
+  "homepage": "https://github.com/paulImperial/imperial-webservices#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "reactdom": "^2.0.0"
+  }
+}
