@@ -6,8 +6,8 @@
   "scripts": {
     "test": "",
     "dev": "next",
-    "server": "next build",
-    "start": "next start"
+	"build": "next build",
+	"export": "next export"
   },
   "husky": {
     "hooks": {
