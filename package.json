@@ -6,7 +6,7 @@
   "scripts": {
     "test": "",
     "dev": "next",
-    "build": "next build",
+    "server": "next build",
     "start": "next start"
   },
   "husky": {
