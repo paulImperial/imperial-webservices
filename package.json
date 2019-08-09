@@ -4,7 +4,17 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon --exec babel-node script.js"
+    "test": "",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "...": "..."
+    }
   },
   "repository": {
     "type": "git",
@@ -25,9 +35,10 @@
     "reactdom": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "nodemon": "^1.19.1"
+    "husky": "^3.0.3",
+    "next": "^9.0.3",
+    "nodemon": "^1.19.1",
+    "parcel-bundler": "^1.12.3",
+    "react-dom": "^16.9.0"
   }
 }
