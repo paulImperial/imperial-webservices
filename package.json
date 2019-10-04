@@ -31,16 +31,15 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
-    "react": "^16.8.6",
-    "reactdom": "^2.0.0",
-    "serve": "^11.1.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "husky": "^3.0.3",
-    "next": "^9.0.3",
-    "nodemon": "^1.19.1",
     "parcel-bundler": "^1.12.3",
-    "react-dom": "^16.9.0"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^1.19.2",
+    "serverless-http": "^2.3.0"
   }
 }
