@@ -4,11 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "",
-    "dev": "next",
-    "build": "next build",
-    "export": "next export",
-    "start": "serve ./out"
+	"build": "node index.js"
   },
   "husky": {
     "hooks": {
