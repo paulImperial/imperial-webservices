@@ -4,7 +4,7 @@
   "description": "",
   "main": "function/index.js",
   "scripts": {
-	"start:lambda": "netlify-lambda serve src/lambda",
+	"start:lambda": "netlify-lambda serve function",
 	"build:lambda": "netlify-lambda build src/lambda",
 	"build": "netlify-lambda build function"
   },

@@ -146,6 +146,6 @@ exports.handler = (event, context, callback) => {
 	return callback(null, {
 	  statusCode,
 	  headers,
-	  body: JSON.stringify(blogs)
+	  body: JSON.stringify({blogs})
 	});
 };
