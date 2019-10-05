@@ -135,8 +135,17 @@ exports.handler = (event, context, callback) => {
 		}
 	];
 
+	const statusCode = 200;
+	const headers = {
+	"Access-Control-Allow-Origin" : "*",
+	"Access-Control-Allow-Headers": "Content-Type",
+	"Content-Type": "application/json",
+	"Accept": "application/json"
+	};
+
 	callback(null, {
-	  statusCode: 200,
+	  statusCode,
+	  headers,
 	  body: JSON.stringify(blogs)
 	});
 };
