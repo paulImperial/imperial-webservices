@@ -143,7 +143,7 @@ exports.handler = (event, context, callback) => {
 	"Accept": "application/json"
 	};
 
-	callback(null, {
+	return callback(null, {
 	  statusCode,
 	  headers,
 	  body: JSON.stringify(blogs)
