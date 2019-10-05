@@ -6,7 +6,7 @@
   "scripts": {
 	"start:lambda": "netlify-lambda serve src/lambda",
 	"build:lambda": "netlify-lambda build src/lambda",
-	"build": "netlify-lambda build function/index.js"
+	"build": "netlify-lambda build function"
   },
   "husky": {
     "hooks": {
