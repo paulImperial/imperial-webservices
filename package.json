@@ -2,9 +2,11 @@
   "name": "imperial-webservices",
   "version": "1.0.0",
   "description": "",
-  "main": "function/server.js",
+  "main": "function/index.js",
   "scripts": {
-	"build": "netlify-lambda build express"
+	"start:lambda": "netlify-lambda serve src/lambda",
+	"build:lambda": "netlify-lambda build src/lambda",
+	"build": "netlify-lambda build function/index.js"
   },
   "husky": {
     "hooks": {
